@@ -1,0 +1,35 @@
+@import "colors.scss";
+
+.button {
+  width: 277px;
+  height: 59px;
+  color: $white;
+  background: #2E4277;
+  border: none;
+  box-shadow: 4px 4px 0px #1B2A4F;
+}
+
+.title {
+  color: $darkblue;
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.subtitle {
+  color: $subheader;
+  font-family: 'PT Root UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.line {
+  display: block;
+  height: 0px;
+  border: 3px solid #DBE2FE;
+  width: 866px;
+}
